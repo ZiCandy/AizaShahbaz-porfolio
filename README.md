@@ -1,33 +1,50 @@
-# Hi, I'm Aiza Shahbaz 👋
+# 👋 Hi, I'm Aiza Shahbaz
 
-## Aspiring Data Analyst
+### Aspiring Data Analyst | Python | SQL | Excel
 
-Welcome to my portfolio! I build data analysis projects using Python, SQL, and Excel to find insights and solve real-world problems.
+---
+
+## 🚀 About Me
+I am a data-focused graduate with skills in Python, SQL, and Excel.  
+I enjoy turning raw data into clear insights and building analytical solutions.
 
 ---
 
 ## 🧠 Skills
-- Python (Pandas, NumPy, Matplotlib)
-- SQL (Joins, Queries, Data Cleaning)
-- Excel (Pivot Tables, Charts)
-- Data Visualization
-- Data Cleaning & Analysis
+- Python (Pandas, NumPy)
+- SQL (Data analysis, queries, joins)
+- Excel (Pivot tables, charts)
+- Data Cleaning & Visualization
 
 ---
 
 ## 📊 Projects
 
-### 1. Data Cleaning & Exploration (Coming Soon)
-Cleaning messy datasets and identifying patterns.
+### 🟦 Data Cleaning Project (Python)
+- Cleaned messy dataset
+- Handled missing values
+- Performed basic statistical analysis
 
-### 2. SQL Data Analysis Project (Coming Soon)
-Writing queries to analyze business-style datasets.
+👉 `projects/data-cleaning-project/`
 
-### 3. Data Visualization Dashboard (Coming Soon)
-Creating charts and dashboards using real datasets.
+---
+
+### 🟨 SQL Data Analysis Project
+- Wrote SQL queries to analyze sales data
+- Used GROUP BY, SUM, AVG, and ranking queries
+- Identified top customers and trends
+
+👉 `projects/sql-analysis-project/`
+
+---
+
+## 📈 Goals
+- Build real-world data analytics projects  
+- Improve SQL + Python skills  
+- Land a data analyst role
 
 ---
 
 ## 📫 Contact
-Email: aizashahbaz2002@gmail.com  
-LinkedIn: (www.linkedin.com/in/aiza-shahbaz-050ba9253)
+- Email: aizashahbaz2002@gmail.com  
+- LinkedIn: www.linkedin.com/in/aiza-shahbaz-050ba9253
