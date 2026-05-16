@@ -1,45 +1,44 @@
 import pandas as pd
-import numpy as np
 import matplotlib.pyplot as plt
 
-# -------------------------
-# Create dataset (simulated web analytics)
-# -------------------------
-np.random.seed(42)
+# -----------------------------
+# LOAD DATASET
+# -----------------------------
+df = pd.read_csv("bank.csv")
 
-df = pd.DataFrame({
-    "user_id": range(1, 101),
-    "sessions": np.random.randint(1, 20, 100),
-    "bounce_rate": np.random.uniform(0.2, 0.9, 100),
-    "conversion": np.random.randint(0, 2, 100),
-    "traffic_source": np.random.choice(["Google", "Social", "Direct", "Email"], 100)
-})
+# -----------------------------
+# BASIC LOOK
+# -----------------------------
+print("First 5 rows:")
+print(df.head())
 
-# -------------------------
-# Cleaning
-# -------------------------
-df["bounce_rate"] = df["bounce_rate"].round(2)
+print("\nInfo:")
+print(df.info())
 
-# -------------------------
-# Key Metrics
-# -------------------------
-avg_bounce = df["bounce_rate"].mean()
-conversion_rate = df["conversion"].mean()
+# -----------------------------
+# CLEANING
+# -----------------------------
+df = df.dropna()
 
-print("Average Bounce Rate:", avg_bounce)
-print("Conversion Rate:", conversion_rate)
+# -----------------------------
+# KEY KPI ANALYSIS
+# -----------------------------
 
-# -------------------------
-# Traffic Source Analysis
-# -------------------------
-source_perf = df.groupby("traffic_source")["conversion"].mean()
-print("\nConversion by Traffic Source:\n", source_perf)
+# conversion rate (deposit yes/no)
+conversion_rate = df["deposit"].value_counts(normalize=True) * 100
+print("\nConversion Rate (%):")
+print(conversion_rate)
 
-# -------------------------
-# Visualization
-# -------------------------
-source_perf.plot(kind="bar")
-plt.title("Conversion Rate by Traffic Source")
-plt.xlabel("Traffic Source")
-plt.ylabel("Conversion Rate")
+# job analysis
+job_counts = df["job"].value_counts()
+print("\nTop Jobs:")
+print(job_counts.head(10))
+
+# -----------------------------
+# VISUALIZATION
+# -----------------------------
+job_counts.head(10).plot(kind="bar")
+plt.title("Top Customer Jobs")
+plt.xlabel("Job Type")
+plt.ylabel("Count")
 plt.show()
