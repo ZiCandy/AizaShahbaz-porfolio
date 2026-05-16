@@ -1,50 +1,83 @@
 # 👋 Hi, I'm Aiza Shahbaz
 
-### Aspiring Data Analyst | Python | SQL | Excel
+**Aspiring Data Analyst | Health Informatics Graduate | Python | SQL | Excel | Tableau | Power BI**
 
 ---
 
 ## 🚀 About Me
-I am a data-focused graduate with skills in Python, SQL, and Excel.  
-I enjoy turning raw data into clear insights and building analytical solutions.
+
+Data-focused professional with experience in healthcare operations, research analytics, dashboard development, data cleaning, process improvement, and reporting. Passionate about transforming raw data into actionable business insights using Python, SQL, Excel, Tableau, and Power BI.
 
 ---
 
-## 🧠 Skills
-- Python (Pandas, NumPy)
-- SQL (Data analysis, queries, joins)
-- Excel (Pivot tables, charts)
-- Data Cleaning & Visualization
+## 🧠 Technical Skills
+
+### Programming & Analytics
+- Python (Pandas, NumPy, Matplotlib)
+- SQL (Joins, CTEs, Views, Window Functions)
+- R
+- Excel (Pivot Tables, XLOOKUP, Advanced Reporting)
+
+### Visualization & Reporting
+- Tableau
+- Power BI
+- KPI Dashboard Development
+- Executive Reporting
+- Stakeholder Presentations
+
+### Data Operations
+- Data Cleaning & Validation
+- Data Integration
+- Process Automation
+- Quality Assurance
+- Business Intelligence Analysis
 
 ---
 
-## 📊 Projects
+## 📊 Featured Portfolio Projects
 
-### 🟦 Data Cleaning Project (Python)
-- Cleaned messy dataset
-- Handled missing values
-- Performed basic statistical analysis
+### 🔹 Web Analytics & User Engagement Analysis
+- Cleaned and analyzed 10,000+ web session records
+- Evaluated traffic sources, bounce rates, conversion metrics, and user behavior
+- Built Python + SQL workflows for business intelligence reporting
+- Designed dashboards to support strategic decision-making
 
-👉 `projects/data-cleaning-project/`
+### 🔹 SQL Sales & Customer Intelligence Analysis
+- Developed advanced SQL queries for customer segmentation and revenue analysis
+- Created reporting views for recurring KPI monitoring
+- Identified business growth opportunities through customer behavior trends
+
+### 🔹 Campaign Data Automation Framework
+- Built Python automation workflows for recurring campaign reporting
+- Streamlined data processing and validation
+- Improved reporting efficiency while reducing manual effort
+
+### 🔹 Healthcare Data Quality & Reporting
+- Simulated healthcare operations datasets
+- Focused on data integrity, compliance, quality assurance, and operational reporting
+- Supported strategic healthcare decision-making
+
+### 🔹 Tableau / Power BI Executive Dashboard Portfolio
+- Built business dashboards tracking KPIs, performance trends, and segmentation
+- Designed stakeholder-friendly visualizations for executive summaries
+- Strengthened analytical storytelling and reporting accuracy
 
 ---
 
-### 🟨 SQL Data Analysis Project
-- Wrote SQL queries to analyze sales data
-- Used GROUP BY, SUM, AVG, and ranking queries
-- Identified top customers and trends
+## 📂 Repository Structure
 
-👉 `projects/sql-analysis-project/`
-
----
-
-## 📈 Goals
-- Build real-world data analytics projects  
-- Improve SQL + Python skills  
-- Land a data analyst role
-
----
-
-## 📫 Contact
-- Email: aizashahbaz2002@gmail.com  
-- LinkedIn: www.linkedin.com/in/aiza-shahbaz-050ba9253
+```txt
+AizaShahbaz-portfolio/
+│
+├── README.md
+├── requirements.txt
+├── assets/
+│
+├── projects/
+│   ├── 01-web-analytics-user-engagement/
+│   ├── 02-sql-sales-customer-analysis/
+│   ├── 03-campaign-data-automation/
+│   ├── 04-healthcare-data-quality-project/
+│   └── 05-tableau-powerbi-dashboard-project/
+│
+└── certifications/
