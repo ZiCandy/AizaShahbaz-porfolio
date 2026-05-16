@@ -1,44 +1,57 @@
 # Web Analytics & User Engagement Analysis
 
 ## 📌 Project Overview
-This project analyzes user behavior data to understand engagement patterns, traffic sources, and conversion performance.
+This project analyzes user behavior data to understand engagement patterns, traffic sources, and conversion performance using Python and SQL.
 
 ---
 
-## 🧠 Business Problem
-How do we understand user behavior and improve engagement and conversions?
+## 🎯 Objective
+To identify how users interact with a website and determine which traffic sources generate the highest engagement and conversions.
+
+---
+
+## 🧠 Tools Used
+- Python (Pandas, NumPy, Matplotlib)
+- SQL (Aggregations, Group By)
+- Data Visualization
+- Jupyter-style analysis
 
 ---
 
 ## 📊 Dataset
-- Kaggle or simulated web analytics dataset
-- Includes sessions, bounce rate, device type, traffic source, conversions
+Simulated web analytics dataset including:
+- User sessions
+- Bounce rate
+- Conversion data
+- Traffic sources (Google, Social, Direct, Email)
 
 ---
 
-## 🛠 Tools Used
-- Python (Pandas, NumPy, Matplotlib)
-- SQL (Joins, Aggregations)
-- Excel (optional cleaning)
-- Tableau / Power BI (dashboard)
+## 🔍 Key Analysis Performed
+- Cleaned and structured dataset
+- Calculated bounce rate and conversion rate
+- Analyzed performance by traffic source
+- Visualized conversion trends
 
 ---
 
-## 🔍 What This Project Will Show
-- Data cleaning skills
-- User behavior analysis
-- KPI tracking (bounce rate, conversion rate)
-- Business insights
-- Dashboard storytelling
+## 📈 Key Insights
+- Identified best performing traffic sources
+- Compared user engagement across channels
+- Measured conversion efficiency
+- Highlighted behavioral patterns in user activity
 
 ---
 
-## 📈 Expected Insights
-- Best-performing traffic sources
-- Drop-off behavior in user journey
-- Device-based performance differences
-- Conversion trends
+## 🧾 Files in this Project
+- notebooks/analysis.py → Python analysis script
+- sql/queries.sql → SQL analysis queries
 
 ---
 
-## 📁 Project Structure
+## 🚀 Skills Demonstrated
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- SQL Querying
+- Data Visualization
+- Business Insight Generation
