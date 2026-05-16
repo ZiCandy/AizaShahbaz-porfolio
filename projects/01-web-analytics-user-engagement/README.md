@@ -6,12 +6,12 @@ This project analyzes user behavior data to understand engagement patterns, traf
 ---
 
 ## 🧠 Business Problem
-How can we understand user behavior and improve engagement and conversions using data?
+How do we understand user behavior and improve engagement and conversions?
 
 ---
 
 ## 📊 Dataset
-- Kaggle / simulated web analytics dataset
+- Kaggle or simulated web analytics dataset
 - Includes sessions, bounce rate, device type, traffic source, conversions
 
 ---
@@ -19,34 +19,26 @@ How can we understand user behavior and improve engagement and conversions using
 ## 🛠 Tools Used
 - Python (Pandas, NumPy, Matplotlib)
 - SQL (Joins, Aggregations)
-- Excel (optional)
-- Tableau / Power BI
+- Excel (optional cleaning)
+- Tableau / Power BI (dashboard)
 
 ---
 
-## 🔍 Analysis Steps
-- Data cleaning
-- Missing value handling
-- User segmentation
-- Bounce rate analysis
-- Conversion analysis
-- Traffic source comparison
+## 🔍 What This Project Will Show
+- Data cleaning skills
+- User behavior analysis
+- KPI tracking (bounce rate, conversion rate)
+- Business insights
+- Dashboard storytelling
 
 ---
 
-## 📈 Key Insights (Expected)
-- Best traffic sources
-- Drop-off points in user journey
-- Device performance differences
+## 📈 Expected Insights
+- Best-performing traffic sources
+- Drop-off behavior in user journey
+- Device-based performance differences
 - Conversion trends
 
 ---
 
-## 📊 Output
-- Charts
-- SQL queries
-- Dashboard (optional)
-
----
-
-## 📁 Structure
+## 📁 Project Structure
