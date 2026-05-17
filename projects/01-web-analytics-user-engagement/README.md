@@ -40,7 +40,8 @@ Bank marketing dataset containing:
 - The dataset shows a fairly balanced conversion rate (~52.6% no vs ~47.4% yes).
 - Customer engagement is highest among management, blue-collar, and technician roles.
 - Findings support segmentation-based targeting for marketing and outreach optimization.
-
+WHY?!
+This dataset shows that about 47.4% of customers subscribed to a deposit while 52.6% did not, which means the campaign is almost evenly split but slightly underperforming in conversions. Most customers come from management, blue-collar, and technician jobs, so these groups dominate the customer base and heavily influence overall results. This matters because the bank can use this to focus marketing efforts on the biggest customer groups and try to improve conversion among the majority who are currently saying “no.”
 ---
 
 ## 🧾 Files in This Project
